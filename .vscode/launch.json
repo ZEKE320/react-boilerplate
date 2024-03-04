@@ -1,20 +1,22 @@
 {
+  // IntelliSense を使用して利用可能な属性を学べます。
+  // 既存の属性の説明をホバーして表示します。
+  // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Backend: Dev Server",
       "type": "node-terminal",
-      "name": "Astro: dev server",
       "request": "launch",
-      "command": "npm run dev",
-      "cwd": "${workspaceFolder}/astro"
+      "command": "npm run dev"
     },
     {
-      "type": "chrome",
+      "name": "Frontend: Debug frontend",
       "request": "launch",
-      "name": "Chrome: debug",
-      "url": "http://localhost:4321",
+      "type": "chrome",
+      "url": "http://localhost:3000",
       "webRoot": "${workspaceFolder}",
-      "userDataDir": "${workspaceFolder}/.vscode/chrome"
+      "userDataDir": "${workspaceFolder}/.vscode/chrome/"
     }
   ]
 }

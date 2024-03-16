@@ -15,7 +15,6 @@
       "request": "launch",
       "type": "chrome",
       "url": "http://localhost:3000",
-      "webRoot": "${workspaceFolder}",
       "userDataDir": "${workspaceFolder}/.vscode/chrome/"
     }
   ]

@@ -26,25 +26,24 @@
         "sonarlint.ls.javaHome": "/usr/local/sdkman/candidates/java/current/bin/java"
       },
       "extensions": [
-        "donjayamanne.git-extension-pack",
-        "seatonjiang.gitmoji-vscode",
-        "esbenp.prettier-vscode",
-        "SonarSource.sonarlint-vscode",
-        "ms-edgedevtools.vscode-edge-devtools",
-        "Gruntfuggly.todo-tree",
-        "streetsidesoftware.code-spell-checker",
-        "dbaeumer.vscode-eslint",
-        "mhutchie.git-graph",
-        "GitHub.copilot",
-        "GitHub.vscode-pull-request-github",
-        "oderwat.indent-rainbow",
-        "VisualStudioExptTeam.vscodeintellicode",
-        "VisualStudioExptTeam.vscodeintellicode-completions",
         "christian-kohler.npm-intellisense",
         "christian-kohler.path-intellisense",
-        "redhat.fabric8-analytics",
+        "dbaeumer.vscode-eslint",
+        "donjayamanne.git-extension-pack",
+        "esbenp.prettier-vscode",
+        "GitHub.copilot",
+        "GitHub.vscode-pull-request-github",
+        "Gruntfuggly.todo-tree",
+        "mhutchie.git-graph",
         "mitchdenny.ecdc",
-        "EditorConfig.EditorConfig"
+        "ms-edgedevtools.vscode-edge-devtools",
+        "oderwat.indent-rainbow",
+        "redhat.fabric8-analytics",
+        "seatonjiang.gitmoji-vscode",
+        "SonarSource.sonarlint-vscode",
+        "streetsidesoftware.code-spell-checker",
+        "VisualStudioExptTeam.vscodeintellicode-completions",
+        "VisualStudioExptTeam.vscodeintellicode"
       ]
     }
   }

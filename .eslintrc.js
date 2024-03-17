@@ -22,7 +22,6 @@ export default {
   plugins: ["@typescript-eslint", "@stylistic", "react", "prettier"],
   rules: {
     ...stylisticConfigs.rules,
-    "@stylistic/indent": ["error", 4],
     "@stylistic/linebreak-style": ["error", "unix"],
     "@stylistic/quotes": ["error", "double"],
     "@stylistic/semi": ["error"],

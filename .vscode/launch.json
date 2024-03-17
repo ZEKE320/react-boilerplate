@@ -5,13 +5,13 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Backend: Dev Server",
+      "name": "Backend: Debug",
       "type": "node-terminal",
       "request": "launch",
       "command": "npm run dev"
     },
     {
-      "name": "Frontend: Debug frontend",
+      "name": "Frontend: Debug",
       "request": "launch",
       "type": "chrome",
       "url": "http://localhost:3000",

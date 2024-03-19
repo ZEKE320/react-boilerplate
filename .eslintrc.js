@@ -1,4 +1,4 @@
-import stylistic from "@stylistic/eslint-plugin";
+const stylistic = require("@stylistic/eslint-plugin");
 const stylisticConfigs = stylistic.configs["recommended-extends"];
 
 module.export = {
@@ -11,7 +11,7 @@ module.export = {
     "plugin:@typescript-eslint/recommended-type-checked",
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
-    "plugin:react/jsx-a11y-recommended",
+    "plugin:jsx-a11y/recommended",
     "prettier",
   ],
   parser: "@typescript-eslint/parser",
@@ -26,7 +26,7 @@ module.export = {
     "@stylistic/indent": ["error", 2],
     "@stylistic/linebreak-style": ["error", "unix"],
     "@stylistic/quotes": ["error", "double"],
-    "@stylistic/semi": ["error"],
+    "@stylistic/semi": ["error", "always"],
     "@stylistic/strict-boolean-expressions": "warn",
   },
   settings: {

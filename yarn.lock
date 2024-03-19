@@ -191,7 +191,7 @@
   resolved "https://registry.yarnpkg.com/@types/semver/-/semver-7.5.8.tgz#8268a8c57a3e4abd25c165ecd36237db7948a55e"
   integrity sha512-I8EUhyrgfLrcTkzV3TSsGyl1tSuPrEDzr0yd5m90UgNxQkyDXULk3b6MlQqTCpZpNtWe1K0hzclnZkTcLBe2UQ==
 
-"@typescript-eslint/eslint-plugin@7.3.1", "@typescript-eslint/eslint-plugin@^7.1.0":
+"@typescript-eslint/eslint-plugin@^7.1.0":
   version "7.3.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-7.3.1.tgz#0d8f38a6c8a1802139e62184ee7a68ed024f30a1"
   integrity sha512-STEDMVQGww5lhCuNXVSQfbfuNII5E08QWkvAw5Qwf+bj2WT+JkG1uc+5/vXA3AOYMDHVOSpL+9rcbEUiHIm2dw==
@@ -208,7 +208,7 @@
     semver "^7.5.4"
     ts-api-utils "^1.0.1"
 
-"@typescript-eslint/parser@7.3.1", "@typescript-eslint/parser@^7.1.0":
+"@typescript-eslint/parser@^7.1.0":
   version "7.3.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-7.3.1.tgz#c4ba7dc2744318a5e4506596cbc3a0086255c526"
   integrity sha512-Rq49+pq7viTRCH48XAbTA+wdLRrB/3sRq4Lpk0oGDm0VmnjBrAOVXH/Laalmwsv2VpekiEfVFwJYVk6/e8uvQw==
@@ -2034,14 +2034,6 @@ typed-array-length@^1.0.5:
     has-proto "^1.0.3"
     is-typed-array "^1.1.13"
     possible-typed-array-names "^1.0.0"
-
-typescript-eslint@^7.1.0:
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/typescript-eslint/-/typescript-eslint-7.3.1.tgz#9f4808abea3b33c4dd3bb51dd801471e91d1bd58"
-  integrity sha512-psqcnHPRCdVIDbgj6RvfpwUKqMcNxIw7eizgxYi46X2BmXK6LxYqPD+SbDfPuA9JW+yPItY6aKJLRNbW7lZ4rA==
-  dependencies:
-    "@typescript-eslint/eslint-plugin" "7.3.1"
-    "@typescript-eslint/parser" "7.3.1"
 
 typescript@^5.3.3:
   version "5.4.2"

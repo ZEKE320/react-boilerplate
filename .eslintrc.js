@@ -1,7 +1,7 @@
-import { stylistic } from "@stylistic/eslint-plugin";
+import stylistic from "@stylistic/eslint-plugin";
 const stylisticConfigs = stylistic.configs["recommended-extends"];
 
-export default {
+module.export = {
   env: {
     browser: true,
     es2021: true,
@@ -12,6 +12,7 @@ export default {
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
     "plugin:react/jsx-a11y-recommended",
+    "prettier",
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
@@ -19,9 +20,10 @@ export default {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  plugins: ["@typescript-eslint", "@stylistic", "react", "prettier"],
+  plugins: ["@typescript-eslint", "@stylistic", "react"],
   rules: {
     ...stylisticConfigs.rules,
+    "@stylistic/indent": ["error", 2],
     "@stylistic/linebreak-style": ["error", "unix"],
     "@stylistic/quotes": ["error", "double"],
     "@stylistic/semi": ["error"],
